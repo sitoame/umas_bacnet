@@ -21,12 +21,9 @@ def main():
             bacnet = bacnet_instance
         )
 
-    print(bacnet_devices['UMA_20'].puntos.get('Encendido/Apagado del Sistema', {}).get('obj'))
-    input()
     data_manager.bacnet_devices = bacnet_devices
     control_manager = ControlManager(bacnet_devices, MQTT_CONFIG, bacnet_instance)
     control_manager.start()
-
 
     # data manager main loop
     try:
