@@ -1,0 +1,85 @@
+# Configuration
+DEVICE_IP = '172.17.31.10'  # Server IP
+BACNET_PORT = 47816
+
+DEV_CONFIG = {
+    'UMA_01': {'IP': '172.17.31.13', 'DEVICE_ID': 3113, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_02': {'IP': '172.17.31.14', 'DEVICE_ID': 3114, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_03': {'IP': '172.17.31.15', 'DEVICE_ID': 3115, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_04': {'IP': '172.17.31.16', 'DEVICE_ID': 3116, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_05': {'IP': '172.17.31.17', 'DEVICE_ID': 3117, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_06': {'IP': '172.17.31.18', 'DEVICE_ID': 3118, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_07': {'IP': '172.17.31.19', 'DEVICE_ID': 3119, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_08': {'IP': '172.17.31.20', 'DEVICE_ID': 3120, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_09': {'IP': '172.17.31.21', 'DEVICE_ID': 3121, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_10': {'IP': '172.17.31.22', 'DEVICE_ID': 3122, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_11': {'IP': '172.17.31.23', 'DEVICE_ID': 3123, 'TIPICO': 'UMA_Tipico3'},
+    'UMA_12': {'IP': '172.17.31.24', 'DEVICE_ID': 3124, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_13': {'IP': '172.17.31.25', 'DEVICE_ID': 3125, 'TIPICO': 'UMA_Tipico6'},
+    'UMA_14': {'IP': '172.17.31.26', 'DEVICE_ID': 3126, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_15': {'IP': '172.17.31.27', 'DEVICE_ID': 3127, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_16': {'IP': '172.17.31.28', 'DEVICE_ID': 3128, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_17': {'IP': '172.17.31.29', 'DEVICE_ID': 3129, 'TIPICO': 'UMA_Tipico7'},
+    'UMA_18': {'IP': '172.17.31.30', 'DEVICE_ID': 3130, 'TIPICO': 'UMA_Tipico8'},
+    'UMA_19': {'IP': '172.17.31.31', 'DEVICE_ID': 3131, 'TIPICO': 'UMA_Tipico3'},
+    'UMA_20': {'IP': '172.17.31.32', 'DEVICE_ID': 3132, 'TIPICO': 'UMA_Tipico3'},
+    'UMA_21': {'IP': '172.17.31.33', 'DEVICE_ID': 3133, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_22': {'IP': '172.17.31.34', 'DEVICE_ID': 3134, 'TIPICO': 'UMA_Tipico8'},
+    'UMA_23': {'IP': '172.17.31.35', 'DEVICE_ID': 3135, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_24': {'IP': '172.17.31.36', 'DEVICE_ID': 3136, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_25': {'IP': '172.17.31.37', 'DEVICE_ID': 3137, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_26': {'IP': '172.17.31.38', 'DEVICE_ID': 3138, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_27': {'IP': '172.17.31.39', 'DEVICE_ID': 3139, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_28': {'IP': '172.17.31.40', 'DEVICE_ID': 3140, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_29': {'IP': '172.17.31.41', 'DEVICE_ID': 3141, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_30': {'IP': '172.17.31.42', 'DEVICE_ID': 3142, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_31': {'IP': '172.17.31.43', 'DEVICE_ID': 3143, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_32': {'IP': '172.17.31.44', 'DEVICE_ID': 3144, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_33': {'IP': '172.17.31.45', 'DEVICE_ID': 3145, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_34': {'IP': '172.17.31.46', 'DEVICE_ID': 3146, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_35': {'IP': '172.17.31.47', 'DEVICE_ID': 3147, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_36': {'IP': '172.17.31.48', 'DEVICE_ID': 3148, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_37': {'IP': '172.17.31.49', 'DEVICE_ID': 3149, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_38': {'IP': '172.17.31.50', 'DEVICE_ID': 3150, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_39': {'IP': '172.17.31.51', 'DEVICE_ID': 3151, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_40': {'IP': '172.17.31.52', 'DEVICE_ID': 3152, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_41': {'IP': '172.17.31.53', 'DEVICE_ID': 3153, 'TIPICO': 'UMA_Tipico8'},
+    'UMA_42': {'IP': '172.17.31.54', 'DEVICE_ID': 3154, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_43': {'IP': '172.17.31.55', 'DEVICE_ID': 3155, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_44': {'IP': '172.17.31.56', 'DEVICE_ID': 3156, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_45': {'IP': '172.17.31.57', 'DEVICE_ID': 3157, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_46': {'IP': '172.17.31.58', 'DEVICE_ID': 3158, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_47': {'IP': '172.17.31.59', 'DEVICE_ID': 3159, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_48': {'IP': '172.17.31.60', 'DEVICE_ID': 3160, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_49': {'IP': '172.17.31.61', 'DEVICE_ID': 3161, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_50': {'IP': '172.17.31.62', 'DEVICE_ID': 3162, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_51': {'IP': '172.17.31.63', 'DEVICE_ID': 3163, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_52': {'IP': '172.17.31.64', 'DEVICE_ID': 3164, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_53': {'IP': '172.17.31.65', 'DEVICE_ID': 3165, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_54': {'IP': '172.17.31.66', 'DEVICE_ID': 3166, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_55': {'IP': '172.17.31.67', 'DEVICE_ID': 3167, 'TIPICO': 'UMA_Tipico4'},
+    'UMA_56': {'IP': '172.17.31.68', 'DEVICE_ID': 3168, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_57': {'IP': '172.17.31.69', 'DEVICE_ID': 3169, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_58': {'IP': '172.17.31.70', 'DEVICE_ID': 3170, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_59': {'IP': '172.17.31.71', 'DEVICE_ID': 3171, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_60': {'IP': '172.17.31.72', 'DEVICE_ID': 3172, 'TIPICO': 'UMA_Tipico2'},
+    'UMA_61': {'IP': '172.17.31.73', 'DEVICE_ID': 3173, 'TIPICO': 'UMA_Tipico1'},
+    'UMA_62': {'IP': '172.17.31.74', 'DEVICE_ID': 3174, 'TIPICO': 'UMA_Tipico5'},
+    'UMA_63': {'IP': '172.17.31.75', 'DEVICE_ID': 3175, 'TIPICO': 'UMA_Tipico5'},
+    'UMA_64': {'IP': '172.17.31.76', 'DEVICE_ID': 3176, 'TIPICO': 'UMA_Tipico5'},
+}
+
+# Configuración de InfluxDB
+influx_config = {
+    'host': 'localhost',
+    'port': 8086,
+    'username': 'admin',
+    'password': 'admin',
+    'database': 'umas_db'
+}
+
+# Configuración de MQTT
+MQTT_CONFIG = {
+    'host': 'localhost',
+    'port': 1883
+}

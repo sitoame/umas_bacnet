@@ -1,0 +1,6 @@
+__pycache__/
+myenv/
+logs/
+tests/
+.DS_Store
+../.DS_Store
